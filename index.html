@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Formuła 1 - Świat Wyścigów</title>
+
+    <!-- Połączenie z zewnętrznym plikiem CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formuła 1 - Świat Wyścigów</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#zespoly">Zespoły</a></li>
+                <li><a href="#wyniki">Wyniki</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="historia">
+        <h2>Historia Formuły 1</h2>
+        <p>Formuła 1, znana również jako F1, to najwyższa klasa wyścigów samochodowych na świecie. Początek tej serii wyścigów sięga 1950 roku, a od tamtej pory stała się jedną z najpopularniejszych i najbardziej ekscytujących dyscyplin sportowych na świecie.</p>
+        <button onclick="zmienTresc()">Zobacz więcej</button>
+        <p id="dodatkowaTresc" style="display:none;">Formuła 1 to wyścigi, w których uczestniczą zespoły, a kierowcy rywalizują na torach na całym świecie, osiągając prędkości przekraczające 300 km/h.</p>
+    </section>
+
+    <section id="zespoly">
+        <h2>Zespoły w Formule 1</h2>
+        <ul>
+            <li>Mercedes</li>
+            <li>Red Bull Racing</li>
+            <li>Ferrari</li>
+            <li>McLaren</li>
+            <li>Aston Martin</li>
+        </ul>
+    </section>
+
+    <section id="wyniki">
+        <h2>Aktualne Wyniki</h2>
+        <p id="wynik">Kliknij, aby zobaczyć wynik ostatniego wyścigu.</p>
+        <button onclick="pokazWynik()">Pokaż Wynik</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Formuła 1</p>
+    </footer>
+
+    <!-- Połączenie z zewnętrznym plikiem JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
